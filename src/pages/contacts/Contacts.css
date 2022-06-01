@@ -7,14 +7,16 @@
     min-height: calc(100vh - 64px - 70px);
     background-size: cover;
 }
-.form-input{
-    /* width: 50% !important; */
-    /* background-color: red !important; */
-}
+
 .form{
     width: 50% !important;
 }
 
 .rec{
     padding: 0 30px;
+}
+.btn{
+    /* padding: 16px 16px; */
+    background-color: #123;
+    border: none;
 }

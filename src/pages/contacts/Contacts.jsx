@@ -23,6 +23,7 @@ function Contacts(){
                      <label htmlFor="">
                      message : <input type="text" placeholder="enter message" />
                      </label>
+                     <button className='btn'>yuborish</button>
              </form>
          </div>
         </div>
