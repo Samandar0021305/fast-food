@@ -24,9 +24,6 @@ function About(){
                   </ul>
               )
           })}
-          <div ref={title} className="about-list plus-about" onClick={handle}>
-            <h2 className="plus">+</h2>
-          </div>
           </div>
         </div>
         <Footer />
