@@ -7,6 +7,10 @@ import friedHicken from  "../../assets/fried-hicken.jpg";
 import Meal from "../../assets/Meal.jpg";
 import Maroc from "../../assets/Maroc.jpg";
 import Tehran from "../../assets/Tehran.jpg"
+import bigMan from "../../assets/Big-Man.jpg";
+import Manizales from "../../assets/Manizales.jpg";
+import Sandvich from "../../assets/Sandvich.jpg"
+
 
 const Render = [
     {
@@ -53,6 +57,21 @@ const Render = [
         img: Tehran,
         name:"Tehran",
         price:200
+    },
+    {
+        img: bigMan,
+        name:"bigMan",
+        price:220
+    },
+    {
+        img: Manizales,
+        name:"Manizales",
+        price:250
+    },
+    {
+        img: Sandvich,
+        name:"Sandvich",
+        price:254
     },
 
 ]

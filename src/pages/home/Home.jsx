@@ -19,7 +19,7 @@ function Home(){
               </li>
               <li>
                   <Link to='/contacts'>
-                      <button>Ro'yxatsdan o'tish</button>
+                      <button>Ro'yxatdan o'tish</button>
                   </Link>
               </li>
           </ul>
