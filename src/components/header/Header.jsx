@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-
+import '../header/header.css';
 function Header(){
     return(
-        <nav>
+        <nav className="navbar">
         <div class="nav-wrapper">
         <a href="#" class="brand-logo">Logo</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">

@@ -38,3 +38,16 @@
     font-size: 25px;
     margin-left: 30px;
 }
+.plus{
+    margin-bottom: 80px;
+    padding: 0;
+    font-size: 350px;
+}
+.plus-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.show{
+    display: none;
+}

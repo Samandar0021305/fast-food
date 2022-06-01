@@ -1,9 +1,15 @@
+import { useRef } from "react";
 import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
 import './Menu.css';
 import Render from "./MenuK";
 
+
 function About(){
+    const title = useRef();
+    const handle = ()=>{
+     title.className.add("show")
+    }
     return(
         <>
         <Header />
@@ -18,6 +24,9 @@ function About(){
                   </ul>
               )
           })}
+          <div ref={title} className="about-list plus-about" onClick={handle}>
+            <h2 className="plus">+</h2>
+          </div>
           </div>
         </div>
         <Footer />
